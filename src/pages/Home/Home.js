@@ -25,7 +25,7 @@ const Home = () => {
                 <h1 className="text-center">Главные категории</h1>
                 <div className="categories">
                     {categories.map(v =>
-                        <Link to={v.to} className="category">
+                        <Link to={v.to} key={v.to} className="category">
                             <div className="circle" style={{ backgroundColor: v.backgroundColor }}>
                                 <img src={v.img} alt="" />
                             </div>
