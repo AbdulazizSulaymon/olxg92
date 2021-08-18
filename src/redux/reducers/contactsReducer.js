@@ -1,19 +1,24 @@
 const initialState = {
     data: [
         {
-            name: "Salah"
+            name: "Botir",
+            id: "botir"
         },
         {
-            name: "Oybek"
+            name: "Oybek",
+            id: "oybek",
         },
         {
-            name: "Jamshid"
+            name: "Jamshid",
+            id: "jamshid"
         }
     ]
 }
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
+
+
         default: return state;
     }
 }
